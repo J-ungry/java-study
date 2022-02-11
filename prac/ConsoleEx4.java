@@ -21,7 +21,9 @@ class ConsoleEx4 {
                2. 1의 코드를 간단히 예외처리하세요.
 
           */
-        
+        try {
+            curDir = new File(System.getProperty("user.dir"));
+        }catch (Exception e){}
     }
 
     public static void main(String[] args) {
